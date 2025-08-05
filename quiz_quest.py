@@ -136,9 +136,12 @@ def show_leaderboard():
         with open('leaderboard.json') as f:
             data = json.load(f)
             for i, entry in enumerate(data, 1):
-                print(f"{i}. {entry['avatar']}  {entry['nickname']} - {entry['score']} coins")
+                label = "Coins" if int(entry['score']) > 1 else "Coin"
+                print(f"{i}. {entry['avatar']}  {entry['nickname']} - {entry['score']} {label}")
     except (json.JSONDecodeError, FileNotFoundError):
         print("No leaderboard data yet.")
+    input("\nPress enter to continue ...")
+    clear_screen()
 
 
 
@@ -166,10 +169,20 @@ def start_quiz(questions, category, difficulty):
     score = 0
     lives = LIVES
 
-    print(f"\n🎮 Starting quiz: {category} - {difficulty}")
     random.shuffle(selected)
 
-    for item in selected[:QUESTIONS_PER_QUIZ]:
+    for index, item in enumerate(selected[:QUESTIONS_PER_QUIZ], start=1):
+        clear_screen()
+        if lives == 0:
+            print(f"\n🎮 Quiz: {category} - {difficulty} (Question {index} of {QUESTIONS_PER_QUIZ})")
+            print(f"❤️  Lives: {lives} | 🪙  Score: {score}")
+            print("\n💀 You've lost all your lives!")
+            loading("Please wait", duration=3)
+            break
+
+        print(f"\n🎮 Quiz: {category} - {difficulty} (Question {index} of {QUESTIONS_PER_QUIZ})")
+        print(f"❤️  Lives: {lives} | 🪙  Score: {score}")
+
         print(f"\n❓ {item['question']}")
         for i, option in enumerate(item['options'], 1):
             print(f"  {i}. {option}")
@@ -188,17 +201,17 @@ def start_quiz(questions, category, difficulty):
         except ValueError:
             print("⚠️  Invalid input. Skipping.")
             lives -= 1
+            loading("Please wait", duration=2)
             continue
 
         except IndexError:
             print("⚠️  Invalid option number. You must choose between 1-4.")
             lives -= 1
 
-        if lives == 0:
-            print("\n💀 You've lost all your lives!")
-            break
+        loading("Please wait", duration=2)
 
-    print(f"\n🎉 Quiz complete! You scored {score} coins.")
+    clear_screen()
+    print(f"\n🎉 Quiz complete! You scored {score} 🪙 .")
     return score
 
 
@@ -222,7 +235,7 @@ def main():
         clear_screen()
 
         while True:
-            print("\n=== MAIN MENU ===")
+            print("=== MAIN MENU ===")
             print("1. Take Quiz")
             print("2. View Leaderboard")
             print("3. View Question Analytics")
