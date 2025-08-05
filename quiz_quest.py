@@ -114,7 +114,7 @@ def start_quiz(questions, category, difficulty):
         for i, option in enumerate(item['options'], 1):
             print(f"  {i}. {option}")
         try:
-            answer = int(input("Your answer (1-4): "))
+            answer = int(input("Your answer (1-4): ").strip())
             if answer < 1 or answer > 4:
                 raise IndexError
 
@@ -155,7 +155,7 @@ def main():
 
         print("🧠 Welcome to Quiz Quest! 🧠\n")
         while True:
-            nickname = input("Enter your nickname: ").strip()
+            nickname = input("Enter your nickname: ").strip().title()
             if nickname:
                 break
             print("⚠️  Nickname cannot be empty.\n")
@@ -170,7 +170,7 @@ def main():
             print("2. View Leaderboard")
             print("3. Exit")
 
-            choice = input("Choose an option: ")
+            choice = input("Choose an option: ").strip()
 
             if choice == '1':
                 if not questions:
@@ -186,7 +186,7 @@ def main():
                         print(f"- {cat}")
                     print("Type 'back' to return to the main menu.")
 
-                    category = input("Enter category: ").capitalize()
+                    category = input("Enter category: ").strip().title()
 
                     if category.lower() == "back":
                         loading()
@@ -202,8 +202,8 @@ def main():
                                 print(f"- {difficulty}")
                             print("Type 'back' to return to the main menu.")
 
-                            difficulty = input("Choose difficulty: ").capitalize()
-                            
+                            difficulty = input("Choose difficulty: ").strip().title()
+
                             if difficulty.lower() == "back":
                                 loading()
                                 clear_screen()
@@ -250,9 +250,8 @@ def main():
         sys.exit(0)
 
     except Exception as e:
-        print(f"⚠️ An unexpected error occurred: {e}")
-        loading("Exiting due to error", duration=2)
-        clear_screen()
+        print(f"⚠️  An unexpected error occurred: {e}")
+        print("\nExiting due to error")
         sys.exit(1)
 
 
