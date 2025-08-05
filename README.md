@@ -56,7 +56,7 @@ python3 quiz_quest.py
 ```
 3. **Optional:** Add your own questions to questions.json
 
-## 🧪 Sample Questions Format (questions.json)
+**🧪 Sample Questions Format (questions.json)**
 ```json
 {
   "Science": {
