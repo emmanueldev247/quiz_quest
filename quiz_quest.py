@@ -10,6 +10,14 @@ COINS_PER_CORRECT = 10
 QUESTIONS_PER_QUIZ = 10
 
 
+class InvalidQuestionFileError(Exception):
+    pass
+
+
+class QuestionFileNotFoundError(Exception):
+    pass
+
+
 # Clear the console screen
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -17,6 +25,7 @@ def clear_screen():
 
 # Loading animation
 def loading(message="Loading", duration=1):
+    print()
     print(message, end='', flush=True)
     steps = max(1, int(duration * 3))
     for _ in range(steps):
@@ -46,23 +55,58 @@ def choose_avatar():
 # Validate questions structure
 def validate_questions(questions):
     if not isinstance(questions, dict):
-        return False
+        raise InvalidQuestionFileError("\n     Expected questions to be a dictionary at the top level.")
+
     for category, levels in questions.items():
         if not isinstance(levels, dict):
-            return False
+            raise InvalidQuestionFileError(f"\n     In category '{category}', expected a dictionary for difficulty levels.")
+
         for difficulty, q_list in levels.items():
             if not isinstance(q_list, list):
-                return False
-            for q in q_list:
-                if not all(k in q for k in ['question', 'options', 'answer']):
-                    return False
+                raise InvalidQuestionFileError(
+                    f"\n     In category '{category}' under difficulty '{difficulty}', "
+                    f"expected a list of questions but got {type(q_list).__name__}."
+                )
+
+            for i, q in enumerate(q_list):
+                if not isinstance(q, dict):
+                    raise InvalidQuestionFileError(
+                        f"\n     In category '{category}', difficulty '{difficulty}', question index {i}: "
+                        f"expected a dictionary for a question but got {type(q).__name__}."
+                    )
+
+                required_keys = {'question', 'options', 'answer'}
+                missing_keys = required_keys - q.keys()
+                if missing_keys:
+                    raise InvalidQuestionFileError(
+                        f"\n     In category '{category}', difficulty '{difficulty}', question index {i}: "
+                        f"missing required keys: {', '.join(missing_keys)}."
+                    )
+
+                if not isinstance(q['options'], list):
+                    raise InvalidQuestionFileError(
+                        f"\n     In category '{category}', difficulty '{difficulty}', question index {i}: "
+                        f"'options' must be a list, got {type(q['options']).__name__}."
+                    )
+
+                if q['answer'] not in q['options']:
+                    raise InvalidQuestionFileError(
+                        f"\n     In category '{category}', difficulty '{difficulty}', question index {i}: "
+                        f"'answer' value '{q['answer']}' not found in options: {q['options']}."
+                    )
     return True
 
 
 # Load questions
 def load_questions():
-    with open('questions.json') as f:
-        return json.load(f)
+    try:
+        if not os.path.exists('questions.json'):
+            raise QuestionFileNotFoundError("\n     'questions.json' file not found.")
+
+        with open('questions.json') as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        raise InvalidQuestionFileError(f"\n     Invalid questions file format -> {e}")
 
 
 # Save leaderboard
@@ -95,6 +139,22 @@ def show_leaderboard():
                 print(f"{i}. {entry['avatar']}  {entry['nickname']} - {entry['score']} coins")
     except (json.JSONDecodeError, FileNotFoundError):
         print("No leaderboard data yet.")
+
+
+
+def print_question_analytics(questions):
+    print("\n📊 Available Question Analytics:\n")
+    for category, levels in questions.items():
+        total = sum(len(questions[category][difficulty]) for difficulty in levels)
+        label = "Questions" if total > 1 else "Question"
+        print(f"{category} - {total} {label}")
+        for difficulty, q_list in levels.items():
+            label2 = "Questions" if len(q_list) > 1 else "Question"
+            print(f" - {difficulty}: {len(q_list)} {label2}")
+        print()
+    print("💡 You can add your own questions to the 'questions.json' file to expand the quiz!\n")
+    input("Press enter to continue ...")
+    clear_screen()
 
 
 # Quiz logic
@@ -148,10 +208,7 @@ def main():
         clear_screen()
         questions = load_questions()
         if not validate_questions(questions):
-            print("⚠️ Question file is malformed. Please check 'questions.json'.")
-            loading("Exiting due to error")
-            clear_screen()
-            sys.exit(1)
+            raise InvalidQuestionFileError(f"\n     Question file is malformed. Please check 'questions.json'.")
 
         print("🧠 Welcome to Quiz Quest! 🧠\n")
         while True:
@@ -166,9 +223,10 @@ def main():
 
         while True:
             print("\n=== MAIN MENU ===")
-            print("1. Play Quiz")
+            print("1. Take Quiz")
             print("2. View Leaderboard")
-            print("3. Exit")
+            print("3. View Question Analytics")
+            print("4. Exit")
 
             choice = input("Choose an option: ").strip()
 
@@ -182,53 +240,70 @@ def main():
 
                 while True:
                     print("\nAvailable Categories:")
-                    for cat in questions:
-                        print(f"- {cat}")
+                    category_list = list(questions.keys())
+                    for i, cat in enumerate(category_list, start=1):
+                        print(f"{i}. {cat}")
                     print("Type 'back' to return to the main menu.")
 
-                    category = input("Enter category: ").strip().title()
+                    category_input = input("Enter category: ").strip().title()
 
-                    if category.lower() == "back":
+                    if category_input.lower() == "back":
                         loading()
                         clear_screen()
                         break
 
-                    if category in questions:
-                        # Proceed to difficulty selection
-                        while True:
-                            available_difficulties = list(questions[category].keys())
-                            print("\nAvailable Difficulties:")
-                            for difficulty in available_difficulties:
-                                print(f"- {difficulty}")
-                            print("Type 'back' to return to the main menu.")
-
-                            difficulty = input("Choose difficulty: ").strip().title()
-
-                            if difficulty.lower() == "back":
-                                loading()
-                                clear_screen()
-                                break                            
-
-                            
-                            if difficulty not in questions[category] or not isinstance(questions[category][difficulty], list):
-                                print("⚠️ Invalid or empty difficulty set.")
-                                continue
-                            
-                            if not questions[category][difficulty]:
-                                print("⚠️ No questions available at this difficulty.")
-                                continue
-
-                            if difficulty in available_difficulties:
-                                score = start_quiz(questions, category, difficulty)
-                                loading("Saving your score", duration=3)
-                                save_leaderboard(nickname, avatar, score)
-                                clear_screen()
-                                break
-                            else:
-                                print("⚠️ Invalid difficulty. Please choose from the available options.")
-                        break  # break category loop after quiz is done
+                    # Check if input is a number
+                    if category_input.isdigit():
+                        cat_index = int(category_input) - 1
+                        if 0 <= cat_index < len(category_list):
+                            category = category_list[cat_index]
+                        else:
+                            print("⚠️  Invalid category number.")
+                            continue
+                    elif category_input in category_list:
+                        category = category_input
                     else:
-                        print("⚠️ Invalid category.")
+                        print("⚠️  Invalid category.")
+                        continue
+
+                    while True:
+                        available_difficulties = list(questions[category].keys())
+                        print("\nAvailable Difficulties:")
+                        for i, difficulty in enumerate(available_difficulties, start=1):
+                            print(f"{i}. {difficulty}")
+                        print("Type 'back' to return to the main menu.")
+
+                        difficulty_input = input("Choose difficulty: ").strip().title()
+
+                        if difficulty_input.lower() == "back":
+                            loading()
+                            clear_screen()
+                            break
+
+                         # Check if input is a number
+                        if difficulty_input.isdigit():
+                            diff_index = int(difficulty_input) - 1
+                            if 0 <= diff_index < len(available_difficulties):
+                                difficulty = available_difficulties[diff_index]
+                            else:
+                                print("⚠️  Invalid difficulty number.")
+                                continue
+                        elif difficulty_input in available_difficulties:
+                            difficulty = difficulty_input
+                        else:
+                            print("⚠️  Invalid difficulty.")
+                            continue
+
+                        if not questions[category][difficulty]:
+                            print("⚠️  No questions available at this difficulty.")
+                            continue
+
+                        score = start_quiz(questions, category, difficulty)
+                        loading("Saving your score", duration=3)
+                        save_leaderboard(nickname, avatar, score)
+                        clear_screen()
+                        break
+                    break  # break category loop after quiz is done
 
             elif choice == '2':
                 loading("Loading leaderboard")
@@ -236,6 +311,11 @@ def main():
                 show_leaderboard()
 
             elif choice == '3':
+                loading("Loading question analytics")
+                clear_screen()
+                print_question_analytics(questions)
+
+            elif choice == '4':
                 print("\n👋 Goodbye!")
                 loading("Exiting Quiz Quest", duration=2)
                 break
@@ -250,7 +330,7 @@ def main():
         sys.exit(0)
 
     except Exception as e:
-        print(f"⚠️  An unexpected error occurred: {e}")
+        print(f"\n⚠️  An unexpected error occurred: {e}")
         print("\nExiting due to error")
         sys.exit(1)
 
