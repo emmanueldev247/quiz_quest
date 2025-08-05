@@ -1,0 +1,32 @@
+{
+  "Science": {
+    "Easy": [
+      {
+        "question": "What planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Venus"],
+        "answer": "Mars"
+      },
+      {
+        "question": "What gas do plants breathe in?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "answer": "Carbon Dioxide"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Pb", "Fe"],
+        "answer": "Au"
+      }
+    ]
+  },
+  "Math": {
+    "Easy": [
+      {
+        "question": "What is 7 + 5?",
+        "options": ["10", "12", "14", "15"],
+        "answer": "12"
+      }
+    ]
+  }
+}
