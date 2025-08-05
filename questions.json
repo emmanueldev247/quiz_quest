@@ -10,6 +10,319 @@
         "question": "What gas do plants breathe in?",
         "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
         "answer": "Carbon Dioxide"
+      },
+      {
+        "question": "What is H2O commonly known as?",
+        "options": ["Salt", "Water", "Oxygen", "Hydrogen"],
+        "answer": "Water"
+      },
+      {
+        "question": "Which organ pumps blood through the body?",
+        "options": ["Lungs", "Heart", "Kidney", "Liver"],
+        "answer": "Heart"
+      },
+      {
+        "question": "How many legs does an insect have?",
+        "options": ["4", "6", "8", "10"],
+        "answer": "6"
+      },
+      {
+        "question": "What force pulls objects toward the Earth?",
+        "options": ["Magnetism", "Gravity", "Friction", "Electricity"],
+        "answer": "Gravity"
+      },
+      {
+        "question": "Which part of the plant makes food?",
+        "options": ["Root", "Stem", "Leaf", "Flower"],
+        "answer": "Leaf"
+      },
+      {
+        "question": "What do we use to look at stars?",
+        "options": ["Microscope", "Binoculars", "Telescope", "Periscope"],
+        "answer": "Telescope"
+      },
+      {
+        "question": "What is the hottest planet in our solar system?",
+        "options": ["Mars", "Mercury", "Venus", "Jupiter"],
+        "answer": "Venus"
+      },
+      {
+        "question": "Which animal is known for changing its colour?",
+        "options": ["Chameleon", "Frog", "Snake", "Lizard"],
+        "answer": "Chameleon"
+      },
+      {
+        "question": "What is the centre of an atom called?",
+        "options": ["Electron", "Proton", "Nucleus", "Neutron"],
+        "answer": "Nucleus"
+      },
+      {
+        "question": "Which gas do humans breathe in to survive?",
+        "options": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"],
+        "answer": "Oxygen"
+      },
+      {
+        "question": "What part of your body helps you see?",
+        "options": ["Nose", "Eyes", "Ears", "Mouth"],
+        "answer": "Eyes"
+      },
+      {
+        "question": "Which planet is closest to the Sun?",
+        "options": ["Venus", "Mercury", "Earth", "Mars"],
+        "answer": "Mercury"
+      },
+      {
+        "question": "What is the freezing point of water?",
+        "options": ["0°C", "32°C", "100°C", "10°C"],
+        "answer": "0°C"
+      },
+      {
+        "question": "Which of these is a solid?",
+        "options": ["Steam", "Ice", "Water", "Oxygen"],
+        "answer": "Ice"
+      },
+      {
+        "question": "How many planets are in our solar system?",
+        "options": ["7", "8", "9", "10"],
+        "answer": "8"
+      },
+      {
+        "question": "What is the main source of energy for the Earth?",
+        "options": ["Wind", "Sun", "Water", "Fire"],
+        "answer": "Sun"
+      },
+      {
+        "question": "Which part of the body helps you think?",
+        "options": ["Heart", "Lungs", "Brain", "Stomach"],
+        "answer": "Brain"
+      },
+      {
+        "question": "Which animal is the largest mammal?",
+        "options": ["Elephant", "Whale", "Giraffe", "Hippopotamus"],
+        "answer": "Whale"
+      },
+      {
+        "question": "Which of the following is a liquid?",
+        "options": ["Oxygen", "Ice", "Water", "Salt"],
+        "answer": "Water"
+      },
+      {
+        "question": "What do bees make?",
+        "options": ["Milk", "Sugar", "Honey", "Butter"],
+        "answer": "Honey"
+      },
+      {
+        "question": "Which sense organ is used to hear?",
+        "options": ["Nose", "Eyes", "Ears", "Skin"],
+        "answer": "Ears"
+      },
+      {
+        "question": "Which object in the solar system gives off light?",
+        "options": ["Moon", "Earth", "Sun", "Mars"],
+        "answer": "Sun"
+      },
+      {
+        "question": "Which body part helps you smell?",
+        "options": ["Mouth", "Eyes", "Nose", "Ears"],
+        "answer": "Nose"
+      },
+      {
+        "question": "What kind of animal is a frog?",
+        "options": ["Mammal", "Bird", "Amphibian", "Reptile"],
+        "answer": "Amphibian"
+      },
+      {
+        "question": "What do you call animals that eat only plants?",
+        "options": ["Carnivores", "Herbivores", "Omnivores", "Insectivores"],
+        "answer": "Herbivores"
+      },
+      {
+        "question": "What do we call rain that falls as ice?",
+        "options": ["Hail", "Snow", "Sleet", "Dew"],
+        "answer": "Hail"
+      },
+      {
+        "question": "What natural satellite orbits the Earth?",
+        "options": ["Sun", "Star", "Moon", "Asteroid"],
+        "answer": "Moon"
+      },
+      {
+        "question": "Which is the smallest bone in the human body?",
+        "options": ["Femur", "Stapes", "Rib", "Ulna"],
+        "answer": "Stapes"
+      },
+      {
+        "question": "Which vitamin do we get from sunlight?",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        "answer": "Vitamin D"
+      }
+    ],
+
+    "Medium": [
+      {
+        "question": "What part of the cell contains the genetic material?",
+        "options": ["Mitochondria", "Cytoplasm", "Nucleus", "Ribosome"],
+        "answer": "Nucleus"
+      },
+      {
+        "question": "What force keeps planets in orbit around the sun?",
+        "options": ["Magnetism", "Friction", "Gravity", "Inertia"],
+        "answer": "Gravity"
+      },
+      {
+        "question": "What is the main gas found in the air we breathe?",
+        "options": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"],
+        "answer": "Nitrogen"
+      },
+      {
+        "question": "What is the boiling point of water at sea level in Celsius?",
+        "options": ["90°C", "100°C", "80°C", "120°C"],
+        "answer": "100°C"
+      },
+      {
+        "question": "Which part of the human body produces insulin?",
+        "options": ["Liver", "Pancreas", "Heart", "Kidney"],
+        "answer": "Pancreas"
+      },
+      {
+        "question": "What type of energy does a moving object have?",
+        "options": ["Kinetic", "Thermal", "Potential", "Nuclear"],
+        "answer": "Kinetic"
+      },
+      {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Diamond", "Iron", "Gold", "Granite"],
+        "answer": "Diamond"
+      },
+      {
+        "question": "Which vitamin is primarily obtained from sunlight?",
+        "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+        "answer": "Vitamin D"
+      },
+      {
+        "question": "How many planets are in our solar system?",
+        "options": ["7", "8", "9", "10"],
+        "answer": "8"
+      },
+      {
+        "question": "Which planet has the most moons?",
+        "options": ["Jupiter", "Mars", "Earth", "Venus"],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "What is the main function of red blood cells?",
+        "options": [
+          "Fight infections",
+          "Transport oxygen",
+          "Carry nutrients",
+          "Clot blood"
+        ],
+        "answer": "Transport oxygen"
+      },
+      {
+        "question": "What process do plants use to make food?",
+        "options": [
+          "Respiration",
+          "Transpiration",
+          "Photosynthesis",
+          "Fermentation"
+        ],
+        "answer": "Photosynthesis"
+      },
+      {
+        "question": "Which gas is most commonly used in balloons?",
+        "options": ["Oxygen", "Hydrogen", "Helium", "Carbon Dioxide"],
+        "answer": "Helium"
+      },
+      {
+        "question": "What part of the eye controls how much light enters?",
+        "options": ["Cornea", "Iris", "Retina", "Lens"],
+        "answer": "Iris"
+      },
+      {
+        "question": "What metal is liquid at room temperature?",
+        "options": ["Mercury", "Lead", "Aluminium", "Iron"],
+        "answer": "Mercury"
+      },
+      {
+        "question": "Which organ is responsible for filtering blood?",
+        "options": ["Heart", "Liver", "Kidneys", "Lungs"],
+        "answer": "Kidneys"
+      },
+      {
+        "question": "What is the centre of an atom called?",
+        "options": ["Electron", "Proton", "Nucleus", "Neutron"],
+        "answer": "Nucleus"
+      },
+      {
+        "question": "What kind of energy does a battery store?",
+        "options": ["Mechanical", "Chemical", "Nuclear", "Thermal"],
+        "answer": "Chemical"
+      },
+      {
+        "question": "Which part of the human brain controls voluntary movement?",
+        "options": ["Cerebellum", "Cerebrum", "Medulla", "Brainstem"],
+        "answer": "Cerebrum"
+      },
+      {
+        "question": "What is the pH value of water?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7"
+      },
+      {
+        "question": "Which scientist proposed the theory of evolution by natural selection?",
+        "options": ["Newton", "Einstein", "Darwin", "Curie"],
+        "answer": "Darwin"
+      },
+      {
+        "question": "What is the process by which water changes from a liquid to a gas?",
+        "options": ["Condensation", "Evaporation", "Freezing", "Sublimation"],
+        "answer": "Evaporation"
+      },
+      {
+        "question": "Which bone protects the brain?",
+        "options": ["Rib cage", "Spine", "Skull", "Pelvis"],
+        "answer": "Skull"
+      },
+      {
+        "question": "What planet is closest to the sun?",
+        "options": ["Earth", "Venus", "Mercury", "Mars"],
+        "answer": "Mercury"
+      },
+      {
+        "question": "Which gas is essential for us to breathe?",
+        "options": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Hydrogen"],
+        "answer": "Oxygen"
+      },
+      {
+        "question": "Which simple machine is used to raise a flag on a pole?",
+        "options": ["Lever", "Pulley", "Wheel and axle", "Screw"],
+        "answer": "Pulley"
+      },
+      {
+        "question": "Which element is needed to make bones strong?",
+        "options": ["Iron", "Calcium", "Zinc", "Potassium"],
+        "answer": "Calcium"
+      },
+      {
+        "question": "What is the name of the galaxy we live in?",
+        "options": ["Andromeda", "Whirlpool", "Milky Way", "Centaurus A"],
+        "answer": "Milky Way"
+      },
+      {
+        "question": "What instrument is used to measure temperature?",
+        "options": ["Barometer", "Thermometer", "Hygrometer", "Anemometer"],
+        "answer": "Thermometer"
+      },
+      {
+        "question": "Which body system includes the heart and blood vessels?",
+        "options": [
+          "Nervous system",
+          "Respiratory system",
+          "Digestive system",
+          "Circulatory system"
+        ],
+        "answer": "Circulatory system"
       }
     ],
     "Hard": [
@@ -17,15 +330,1657 @@
         "question": "What is the chemical symbol for gold?",
         "options": ["Au", "Ag", "Pb", "Fe"],
         "answer": "Au"
+      },
+      {
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Mitochondria", "Nucleus", "Ribosome", "Golgi apparatus"],
+        "answer": "Mitochondria"
+      },
+      {
+        "question": "What is the speed of light in a vacuum?",
+        "options": [
+          "300,000 km/s",
+          "150,000 km/s",
+          "3,000 km/s",
+          "30,000 km/s"
+        ],
+        "answer": "300,000 km/s"
+      },
+      {
+        "question": "What is the heaviest naturally occurring element?",
+        "options": ["Uranium", "Plutonium", "Osmium", "Lead"],
+        "answer": "Uranium"
+      },
+      {
+        "question": "What is the most abundant gas in the Earth's atmosphere?",
+        "options": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Argon"],
+        "answer": "Nitrogen"
+      },
+      {
+        "question": "What law states that energy cannot be created or destroyed?",
+        "options": [
+          "Law of Conservation of Energy",
+          "Law of Thermodynamics",
+          "Newton's First Law",
+          "Einstein’s Relativity"
+        ],
+        "answer": "Law of Conservation of Energy"
+      },
+      {
+        "question": "Which part of the atom has no electric charge?",
+        "options": ["Neutron", "Electron", "Proton", "Nucleus"],
+        "answer": "Neutron"
+      },
+      {
+        "question": "What is the smallest unit of life?",
+        "options": ["Cell", "Atom", "Molecule", "Tissue"],
+        "answer": "Cell"
+      },
+      {
+        "question": "Which gas is used in balloons and airships?",
+        "options": ["Helium", "Hydrogen", "Oxygen", "Nitrogen"],
+        "answer": "Helium"
+      },
+      {
+        "question": "What is Newton’s third law?",
+        "options": [
+          "For every action, there is an equal and opposite reaction",
+          "Force equals mass times acceleration",
+          "An object in motion stays in motion",
+          "Gravity acts on all objects"
+        ],
+        "answer": "For every action, there is an equal and opposite reaction"
+      },
+      {
+        "question": "Which particle carries a negative charge?",
+        "options": ["Electron", "Proton", "Neutron", "Photon"],
+        "answer": "Electron"
+      },
+      {
+        "question": "What planet has the most moons?",
+        "options": ["Saturn", "Jupiter", "Mars", "Uranus"],
+        "answer": "Saturn"
+      },
+      {
+        "question": "Which metal is liquid at room temperature?",
+        "options": ["Mercury", "Iron", "Aluminium", "Copper"],
+        "answer": "Mercury"
+      },
+      {
+        "question": "What does DNA stand for?",
+        "options": [
+          "Deoxyribonucleic Acid",
+          "Dinucleotide Acid",
+          "Double Helix Acid",
+          "Dynamic Nucleic Acid"
+        ],
+        "answer": "Deoxyribonucleic Acid"
+      },
+      {
+        "question": "What is the SI unit of force?",
+        "options": ["Newton", "Joule", "Watt", "Pascal"],
+        "answer": "Newton"
+      },
+      {
+        "question": "Which scientist developed the theory of evolution by natural selection?",
+        "options": [
+          "Charles Darwin",
+          "Isaac Newton",
+          "Albert Einstein",
+          "Gregor Mendel"
+        ],
+        "answer": "Charles Darwin"
+      },
+      {
+        "question": "What is the pH of pure water?",
+        "options": ["7", "1", "14", "0"],
+        "answer": "7"
+      },
+      {
+        "question": "What part of the brain controls balance and coordination?",
+        "options": ["Cerebellum", "Cerebrum", "Medulla", "Thalamus"],
+        "answer": "Cerebellum"
+      },
+      {
+        "question": "What planet has the longest day?",
+        "options": ["Venus", "Mercury", "Mars", "Neptune"],
+        "answer": "Venus"
+      },
+      {
+        "question": "Which organelle is responsible for photosynthesis?",
+        "options": ["Chloroplast", "Mitochondria", "Ribosome", "Lysosome"],
+        "answer": "Chloroplast"
+      },
+      {
+        "question": "How many bones are in the adult human body?",
+        "options": ["206", "205", "210", "200"],
+        "answer": "206"
+      },
+      {
+        "question": "Which element has the atomic number 6?",
+        "options": ["Carbon", "Oxygen", "Nitrogen", "Helium"],
+        "answer": "Carbon"
+      },
+      {
+        "question": "What is the main gas responsible for the greenhouse effect?",
+        "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Methane"],
+        "answer": "Carbon Dioxide"
+      },
+      {
+        "question": "What is the term for an animal that eats both plants and animals?",
+        "options": ["Omnivore", "Herbivore", "Carnivore", "Detritivore"],
+        "answer": "Omnivore"
+      },
+      {
+        "question": "What type of bond involves the sharing of electron pairs?",
+        "options": ["Covalent", "Ionic", "Metallic", "Hydrogen"],
+        "answer": "Covalent"
+      },
+      {
+        "question": "What device measures atmospheric pressure?",
+        "options": ["Barometer", "Thermometer", "Hygrometer", "Anemometer"],
+        "answer": "Barometer"
+      },
+      {
+        "question": "What causes tides on Earth?",
+        "options": [
+          "Moon’s gravity",
+          "Sun’s radiation",
+          "Earth’s rotation",
+          "Wind"
+        ],
+        "answer": "Moon’s gravity"
+      },
+      {
+        "question": "Which vitamin is produced when human skin is exposed to sunlight?",
+        "options": ["Vitamin D", "Vitamin C", "Vitamin A", "Vitamin K"],
+        "answer": "Vitamin D"
+      },
+      {
+        "question": "What is the primary function of red blood cells?",
+        "options": [
+          "Carry oxygen",
+          "Fight infection",
+          "Produce hormones",
+          "Digest food"
+        ],
+        "answer": "Carry oxygen"
+      },
+      {
+        "question": "Which scientist formulated the laws of motion?",
+        "options": ["Isaac Newton", "Galileo", "Kepler", "Einstein"],
+        "answer": "Isaac Newton"
+      },
+      {
+        "question": "What is the second most abundant element in the Earth’s crust?",
+        "options": ["Silicon", "Aluminium", "Iron", "Calcium"],
+        "answer": "Silicon"
       }
     ]
   },
   "Math": {
     "Easy": [
       {
-        "question": "What is 7 + 5?",
-        "options": ["10", "12", "14", "15"],
+        "question": "What is 7 + 8?",
+        "options": ["13", "15", "14", "16"],
+        "answer": "15"
+      },
+      {
+        "question": "What is 12 × 5?",
+        "options": ["60", "55", "45", "50"],
+        "answer": "60"
+      },
+      {
+        "question": "What is the square root of 49?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7"
+      },
+      {
+        "question": "What is the value of π (pi) to 2 decimal places?",
+        "options": ["3.14", "3.41", "2.14", "3.04"],
+        "answer": "3.14"
+      },
+      {
+        "question": "What is 100 divided by 4?",
+        "options": ["20", "25", "40", "50"],
+        "answer": "25"
+      },
+      {
+        "question": "What is 2³ (2 to the power of 3)?",
+        "options": ["6", "8", "9", "12"],
+        "answer": "8"
+      },
+      {
+        "question": "What is 0.5 as a fraction?",
+        "options": ["1/4", "1/2", "1/3", "2/3"],
+        "answer": "1/2"
+      },
+      {
+        "question": "Solve: 9 - 4 + 2 = ?",
+        "options": ["7", "5", "4", "6"],
+        "answer": "7"
+      },
+      {
+        "question": "What is 15% of 200?",
+        "options": ["20", "25", "30", "35"],
+        "answer": "30"
+      },
+      {
+        "question": "What is 5 squared?",
+        "options": ["10", "20", "25", "30"],
+        "answer": "25"
+      },
+      {
+        "question": "What is ⅓ + ⅔?",
+        "options": ["1", "½", "¾", "2/3"],
+        "answer": "1"
+      },
+      {
+        "question": "What is 0 × 999?",
+        "options": ["999", "1", "0", "Cannot be determined"],
+        "answer": "0"
+      },
+      {
+        "question": "What is 6 divided by 2?",
+        "options": ["3", "2", "4", "5"],
+        "answer": "3"
+      },
+      {
+        "question": "How many sides does a triangle have?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3"
+      },
+      {
+        "question": "What is 10% of 50?",
+        "options": ["2", "5", "10", "20"],
+        "answer": "5"
+      },
+      {
+        "question": "Convert 0.25 to percentage.",
+        "options": ["25%", "2.5%", "0.25%", "75%"],
+        "answer": "25%"
+      },
+      {
+        "question": "What is 8 × 6?",
+        "options": ["42", "46", "48", "50"],
+        "answer": "48"
+      },
+      {
+        "question": "What is the perimeter of a square with side 4cm?",
+        "options": ["12cm", "14cm", "16cm", "8cm"],
+        "answer": "16cm"
+      },
+      {
+        "question": "What is the next number in the sequence: 2, 4, 6, ?",
+        "options": ["7", "8", "10", "12"],
+        "answer": "8"
+      },
+      {
+        "question": "What is the result of 100 - 75?",
+        "options": ["35", "20", "15", "25"],
+        "answer": "25"
+      },
+      {
+        "question": "Simplify: 5x + 3x",
+        "options": ["15x", "8x", "5x²", "3x"],
+        "answer": "8x"
+      },
+      {
+        "question": "Which of these numbers is even?",
+        "options": ["9", "11", "7", "8"],
+        "answer": "8"
+      },
+      {
+        "question": "What is 1/2 of 20?",
+        "options": ["5", "8", "10", "15"],
+        "answer": "10"
+      },
+      {
+        "question": "What is the place value of 6 in 562?",
+        "options": ["Units", "Tens", "Hundreds", "Thousands"],
+        "answer": "Tens"
+      },
+      {
+        "question": "What is 3 + 2 × 4? (Follow BODMAS)",
+        "options": ["20", "11", "14", "16"],
+        "answer": "11"
+      },
+      {
+        "question": "What is the value of x in: x + 3 = 7?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "4"
+      },
+      {
+        "question": "What is 90° angle called?",
+        "options": ["Acute", "Obtuse", "Right", "Reflex"],
+        "answer": "Right"
+      },
+      {
+        "question": "What is the area of a square with side 5cm?",
+        "options": ["25cm²", "10cm²", "20cm²", "15cm²"],
+        "answer": "25cm²"
+      },
+      {
+        "question": "How many minutes are there in 2 hours?",
+        "options": ["60", "90", "120", "150"],
+        "answer": "120"
+      },
+      {
+        "question": "Which of these is a prime number?",
+        "options": ["4", "6", "9", "7"],
+        "answer": "7"
+      },
+      {
+        "question": "What is the fraction equivalent of 25%?",
+        "options": ["1/4", "1/2", "1/3", "2/5"],
+        "answer": "1/4"
+      },
+      {
+        "question": "What shape has 4 equal sides and 4 right angles?",
+        "options": ["Rectangle", "Triangle", "Square", "Trapezium"],
+        "answer": "Square"
+      },
+      {
+        "question": "Multiply: 11 × 11",
+        "options": ["111", "121", "100", "110"],
+        "answer": "121"
+      },
+      {
+        "question": "What is the product of 9 and 9?",
+        "options": ["81", "72", "91", "90"],
+        "answer": "81"
+      },
+      {
+        "question": "Which number is not divisible by 2?",
+        "options": ["18", "12", "7", "20"],
+        "answer": "7"
+      },
+      {
+        "question": "What is 6³ (6 to the power of 3)?",
+        "options": ["36", "216", "144", "126"],
+        "answer": "216"
+      },
+      {
+        "question": "Find the missing number: 15, 20, __, 30",
+        "options": ["25", "22", "27", "28"],
+        "answer": "25"
+      },
+      {
+        "question": "Which is the largest number?",
+        "options": ["999", "1001", "998", "1000"],
+        "answer": "1001"
+      },
+      {
+        "question": "What is the reciprocal of 2?",
+        "options": ["1", "1/2", "2/1", "0.5"],
+        "answer": "1/2"
+      },
+      {
+        "question": "1 kilogram = how many grams?",
+        "options": ["10", "100", "1000", "500"],
+        "answer": "1000"
+      },
+      {
+        "question": "Which of these is a multiple of 4?",
+        "options": ["6", "8", "10", "7"],
+        "answer": "8"
+      },
+      {
+        "question": "What is ¾ expressed as a percentage?",
+        "options": ["50%", "25%", "75%", "100%"],
+        "answer": "75%"
+      },
+      {
+        "question": "What is the mean of 2, 4, 6, 8?",
+        "options": ["5", "6", "7", "4"],
+        "answer": "5"
+      },
+      {
+        "question": "What is 7 × 0 × 5?",
+        "options": ["35", "0", "5", "7"],
+        "answer": "0"
+      },
+      {
+        "question": "If a = 2, b = 3, what is ab?",
+        "options": ["5", "6", "9", "8"],
+        "answer": "6"
+      },
+      {
+        "question": "What is 1000 in Roman numerals?",
+        "options": ["D", "M", "C", "X"],
+        "answer": "M"
+      },
+      {
+        "question": "What is the next odd number after 15?",
+        "options": ["16", "18", "17", "19"],
+        "answer": "17"
+      },
+      {
+        "question": "What is the area of a rectangle 5cm by 3cm?",
+        "options": ["15cm²", "8cm²", "10cm²", "20cm²"],
+        "answer": "15cm²"
+      },
+      {
+        "question": "Simplify: 10 - 2 + 4",
+        "options": ["12", "10", "14", "8"],
         "answer": "12"
+      },
+      {
+        "question": "What is 2/5 + 1/5?",
+        "options": ["2/10", "3/5", "4/5", "1"],
+        "answer": "3/5"
+      },
+      {
+        "question": "How many hours in a day?",
+        "options": ["12", "24", "18", "10"],
+        "answer": "24"
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is 3⁴?",
+        "options": ["9", "81", "27", "64"],
+        "answer": "81"
+      },
+      {
+        "question": "Simplify: (2x + 3) + (x - 5)",
+        "options": ["3x - 2", "3x + 8", "x - 2", "x + 2"],
+        "answer": "3x - 2"
+      },
+      {
+        "question": "Solve for x: 3x = 15",
+        "options": ["5", "6", "4", "3"],
+        "answer": "5"
+      },
+      {
+        "question": "What is 25% of 240?",
+        "options": ["50", "60", "70", "80"],
+        "answer": "60"
+      },
+      {
+        "question": "What is the average of 4, 6, 8, 10?",
+        "options": ["7", "8", "9", "10"],
+        "answer": "7"
+      },
+      {
+        "question": "Simplify: 5(2x - 1)",
+        "options": ["10x - 1", "10x - 5", "10x + 5", "10x - 2"],
+        "answer": "10x - 5"
+      },
+      {
+        "question": "What is the perimeter of a rectangle 4cm by 6cm?",
+        "options": ["20cm", "24cm", "16cm", "18cm"],
+        "answer": "20cm"
+      },
+      {
+        "question": "Convert 3/4 to decimal",
+        "options": ["0.25", "0.5", "0.75", "1"],
+        "answer": "0.75"
+      },
+      {
+        "question": "What is the next prime number after 17?",
+        "options": ["18", "19", "21", "23"],
+        "answer": "19"
+      },
+      {
+        "question": "What is the square root of 144?",
+        "options": ["11", "13", "12", "14"],
+        "answer": "12"
+      },
+      {
+        "question": "Simplify: 3² + 4²",
+        "options": ["25", "17", "7", "5"],
+        "answer": "25"
+      },
+      {
+        "question": "Solve: 5x - 10 = 0",
+        "options": ["x = 2", "x = -2", "x = 10", "x = 5"],
+        "answer": "x = 2"
+      },
+      {
+        "question": "Which number is divisible by 6?",
+        "options": ["18", "25", "19", "29"],
+        "answer": "18"
+      },
+      {
+        "question": "Solve: (2x + 3)(x - 2) = 0",
+        "options": ["x = -3 or 2", "x = 2 or 3", "x = -1 or 2", "x = -2 or 3"],
+        "answer": "x = -3 or 2"
+      },
+      {
+        "question": "Find HCF of 18 and 24",
+        "options": ["3", "6", "12", "2"],
+        "answer": "6"
+      },
+      {
+        "question": "What is the cube of 4?",
+        "options": ["64", "16", "32", "24"],
+        "answer": "64"
+      },
+      {
+        "question": "Find the area of a triangle with base 10 and height 8",
+        "options": ["80", "40", "100", "60"],
+        "answer": "40"
+      },
+      {
+        "question": "What is the value of 2x when x = 7?",
+        "options": ["10", "12", "14", "16"],
+        "answer": "14"
+      },
+      {
+        "question": "Solve: 3x + 2 = 11",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3"
+      },
+      {
+        "question": "Which is a factor of both 36 and 48?",
+        "options": ["3", "4", "12", "18"],
+        "answer": "12"
+      },
+      {
+        "question": "Convert 0.6 to fraction",
+        "options": ["3/4", "2/5", "3/5", "4/5"],
+        "answer": "3/5"
+      },
+      {
+        "question": "Find the value of x: x² = 49",
+        "options": ["±7", "7", "-7", "14"],
+        "answer": "±7"
+      },
+      {
+        "question": "Which number is a multiple of both 3 and 5?",
+        "options": ["10", "15", "20", "25"],
+        "answer": "15"
+      },
+      {
+        "question": "Expand: (x + 4)(x + 2)",
+        "options": ["x² + 6x + 8", "x² + 2x + 4", "x² + 8x + 4", "x² + 4x + 8"],
+        "answer": "x² + 6x + 8"
+      },
+      {
+        "question": "What is 2⁵?",
+        "options": ["10", "16", "32", "64"],
+        "answer": "32"
+      },
+      {
+        "question": "Solve: x/4 = 3",
+        "options": ["7", "12", "9", "6"],
+        "answer": "12"
+      },
+      {
+        "question": "If a triangle has angles 30°, 60°, and x°, what is x?",
+        "options": ["60°", "90°", "120°", "150°"],
+        "answer": "90°"
+      },
+      {
+        "question": "How many diagonals does a hexagon have?",
+        "options": ["6", "8", "9", "12"],
+        "answer": "9"
+      },
+      {
+        "question": "Find LCM of 6 and 8",
+        "options": ["12", "24", "18", "48"],
+        "answer": "24"
+      },
+      {
+        "question": "What is the median of: 2, 5, 8, 11, 15?",
+        "options": ["5", "8", "11", "15"],
+        "answer": "8"
+      },
+      {
+        "question": "Convert 2.5 to fraction",
+        "options": ["5/2", "2/5", "1/4", "3/2"],
+        "answer": "5/2"
+      },
+      {
+        "question": "Which is an improper fraction?",
+        "options": ["5/4", "2/3", "3/5", "1/2"],
+        "answer": "5/4"
+      },
+      {
+        "question": "Which of these is a rational number?",
+        "options": ["π", "√2", "0.25", "√3"],
+        "answer": "0.25"
+      },
+      {
+        "question": "How many edges does a cube have?",
+        "options": ["12", "6", "8", "10"],
+        "answer": "12"
+      },
+      {
+        "question": "What is 5³ - 2²?",
+        "options": ["117", "121", "125", "121"],
+        "answer": "117"
+      },
+      {
+        "question": "What is the mean of 5, 7, 10, 13?",
+        "options": ["9.5", "8.75", "10", "11"],
+        "answer": "8.75"
+      },
+      {
+        "question": "What is 60% of 80?",
+        "options": ["40", "50", "48", "46"],
+        "answer": "48"
+      },
+      {
+        "question": "Which angle is obtuse?",
+        "options": ["45°", "90°", "120°", "180°"],
+        "answer": "120°"
+      },
+      {
+        "question": "What is the cube root of 27?",
+        "options": ["3", "9", "6", "4"],
+        "answer": "3"
+      },
+      {
+        "question": "Solve: 2x - 5 = 3",
+        "options": ["3", "4", "5", "6"],
+        "answer": "4"
+      },
+      {
+        "question": "What is the area of a square of side 9cm?",
+        "options": ["18cm²", "81cm²", "36cm²", "27cm²"],
+        "answer": "81cm²"
+      },
+      {
+        "question": "What is the reciprocal of 1/4?",
+        "options": ["4", "1/4", "0.25", "1/2"],
+        "answer": "4"
+      },
+      {
+        "question": "Which number is not a perfect square?",
+        "options": ["36", "49", "81", "50"],
+        "answer": "50"
+      },
+      {
+        "question": "Which number is irrational?",
+        "options": ["√2", "1/2", "0.75", "2"],
+        "answer": "√2"
+      },
+      {
+        "question": "What is the value of (x + 2)² when x = 3?",
+        "options": ["25", "16", "20", "30"],
+        "answer": "25"
+      },
+      {
+        "question": "What is the surface area of a cube with side 3cm?",
+        "options": ["27cm²", "54cm²", "18cm²", "36cm²"],
+        "answer": "54cm²"
+      },
+      {
+        "question": "If x = 4, what is the value of 3x²?",
+        "options": ["48", "16", "36", "64"],
+        "answer": "48"
+      },
+      {
+        "question": "What is the place value of 7 in 2745?",
+        "options": ["Hundreds", "Tens", "Thousands", "Units"],
+        "answer": "Hundreds"
+      },
+      {
+        "question": "Find the product: (x + 5)(x - 5)",
+        "options": ["x² - 25", "x² + 10x + 25", "x² - 10x + 25", "x² + 25"],
+        "answer": "x² - 25"
+      },
+      {
+        "question": "Which is the smallest prime number?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "2"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "What is the derivative of ln(x)?",
+        "options": ["1/x", "x", "ln(x)", "e^x"],
+        "answer": "1/x"
+      },
+      {
+        "question": "Evaluate: lim(x→0) (sin(x)/x)",
+        "options": ["0", "1", "∞", "Undefined"],
+        "answer": "1"
+      },
+      {
+        "question": "Solve: x² - 5x + 6 = 0",
+        "options": ["x=1 or x=6", "x=2 or x=3", "x=1 or x=2", "x=3 or x=5"],
+        "answer": "x=2 or x=3"
+      },
+      {
+        "question": "What is the integral of 1/(1+x²)?",
+        "options": ["arctan(x) + C", "ln|x| + C", "e^x + C", "x² + C"],
+        "answer": "arctan(x) + C"
+      },
+      {
+        "question": "If f(x) = x², find f '(x)",
+        "options": ["x", "2x", "x²", "1"],
+        "answer": "2x"
+      },
+      {
+        "question": "What is the determinant of [[2,3],[4,5]]?",
+        "options": ["10", "-2", "2", "-2"],
+        "answer": "-2"
+      },
+      {
+        "question": "Solve for x: log₃(x) = 4",
+        "options": ["81", "64", "12", "27"],
+        "answer": "81"
+      },
+      {
+        "question": "What is the domain of √(x-5)?",
+        "options": ["x ≤ 5", "x ≥ 5", "x > 0", "All real numbers"],
+        "answer": "x ≥ 5"
+      },
+      {
+        "question": "What is the value of sin(π/6)?",
+        "options": ["1", "0", "1/2", "√3/2"],
+        "answer": "1/2"
+      },
+      {
+        "question": "Solve: ∫x e^x dx",
+        "options": ["e^x(x-1) + C", "x e^x + C", "e^x + C", "x² e^x + C"],
+        "answer": "x e^x + C"
+      },
+      {
+        "question": "What is the binomial coefficient C(7,3)?",
+        "options": ["35", "21", "28", "42"],
+        "answer": "35"
+      },
+      {
+        "question": "What is the 10th Fibonacci number?",
+        "options": ["55", "34", "89", "21"],
+        "answer": "55"
+      },
+      {
+        "question": "Solve for x: e^x = 5",
+        "options": ["ln(5)", "5", "ln(1/5)", "1"],
+        "answer": "ln(5)"
+      },
+      {
+        "question": "What is the angle between two perpendicular lines?",
+        "options": ["90°", "0°", "180°", "45°"],
+        "answer": "90°"
+      },
+      {
+        "question": "What is the result of 7! (7 factorial)?",
+        "options": ["5040", "720", "120", "40320"],
+        "answer": "5040"
+      },
+      {
+        "question": "If A = πr², what is the derivative of A with respect to r?",
+        "options": ["πr", "2πr", "r²", "2r"],
+        "answer": "2πr"
+      },
+      {
+        "question": "What is the solution to x³ = 27?",
+        "options": ["9", "3", "-3", "27"],
+        "answer": "3"
+      },
+      {
+        "question": "Solve for x: ln(x) = 2",
+        "options": ["e²", "ln(2)", "2e", "1"],
+        "answer": "e²"
+      },
+      {
+        "question": "What is the slope of the line perpendicular to y = -2x+1?",
+        "options": ["-1/2", "2", "1/2", "-2"],
+        "answer": "1/2"
+      },
+      {
+        "question": "Derivative of tan(x)?",
+        "options": ["sec²(x)", "cos²(x)", "sin(x)", "1"],
+        "answer": "sec²(x)"
+      },
+      {
+        "question": "What is the radius of a circle with area 36π?",
+        "options": ["3", "6", "9", "12"],
+        "answer": "6"
+      },
+      {
+        "question": "What is the inverse of the function f(x) = 3x + 4?",
+        "options": ["(x - 4)/3", "(x + 4)/3", "1/(3x + 4)", "3x - 4"],
+        "answer": "(x - 4)/3"
+      },
+      {
+        "question": "What is i² (where i is the imaginary unit)?",
+        "options": ["-1", "1", "0", "i"],
+        "answer": "-1"
+      },
+      {
+        "question": "Evaluate: ∫sec²(x) dx",
+        "options": ["tan(x) + C", "sec(x) + C", "ln|sec(x)| + C", "x + C"],
+        "answer": "tan(x) + C"
+      },
+      {
+        "question": "Solve: x² + 6x + 9 = 0",
+        "options": ["x = -3", "x = 3", "x = ±3", "x = -9"],
+        "answer": "x = -3"
+      },
+      {
+        "question": "Find the limit: lim(x→∞) (1 + 1/x)^x",
+        "options": ["e", "1", "∞", "0"],
+        "answer": "e"
+      },
+      {
+        "question": "Derivative of e^(2x)?",
+        "options": ["2e^(2x)", "e^(x)", "x e^x", "e^(2x)"],
+        "answer": "2e^(2x)"
+      },
+      {
+        "question": "What is the sum of an infinite geometric series with a=5, r=0.5?",
+        "options": ["10", "5", "15", "20"],
+        "answer": "10"
+      },
+      {
+        "question": "What is the second derivative of f(x) = x³?",
+        "options": ["6x", "3x²", "x³", "2x"],
+        "answer": "6x"
+      },
+      {
+        "question": "Find the angle in radians: 180°",
+        "options": ["π", "2π", "π/2", "3π"],
+        "answer": "π"
+      },
+      {
+        "question": "Find x: x log(x) = 0",
+        "options": ["1", "0", "e", "10"],
+        "answer": "1"
+      },
+      {
+        "question": "What is the value of cos(π)?",
+        "options": ["-1", "1", "0", "0.5"],
+        "answer": "-1"
+      },
+      {
+        "question": "Solve: ∫cos(x) dx",
+        "options": ["sin(x) + C", "-sin(x) + C", "cos(x) + C", "tan(x) + C"],
+        "answer": "sin(x) + C"
+      },
+      {
+        "question": "What is the limit: lim(x→0) (1 - cos(x))/x²",
+        "options": ["0.5", "1", "0", "∞"],
+        "answer": "0.5"
+      },
+      {
+        "question": "What is the volume of a sphere with radius r?",
+        "options": ["(4/3)πr³", "πr²h", "2πr", "πr³"],
+        "answer": "(4/3)πr³"
+      },
+      {
+        "question": "If f(x) = 2x + 1, what is f⁻¹(5)?",
+        "options": ["2", "3", "1", "4"],
+        "answer": "2"
+      },
+      {
+        "question": "Derivative of ln(2x)?",
+        "options": ["1/x", "2/x", "1/(2x)", "2ln(x)"],
+        "answer": "1/x"
+      },
+      {
+        "question": "Solve: |x - 3| = 5",
+        "options": ["x = 8 or -2", "x = 2 or 8", "x = 3 or -3", "x = -5 or 5"],
+        "answer": "x = 8 or -2"
+      },
+      {
+        "question": "Find the sum of squares from 1 to 3",
+        "options": ["14", "13", "9", "12"],
+        "answer": "14"
+      },
+      {
+        "question": "What is the slope of the line y = 4x - 7?",
+        "options": ["4", "-7", "1", "-4"],
+        "answer": "4"
+      },
+      {
+        "question": "Find the area under y = x from x = 0 to x = 2",
+        "options": ["2", "4", "1", "3"],
+        "answer": "2"
+      },
+      {
+        "question": "What is the result of i³?",
+        "options": ["-i", "i", "-1", "1"],
+        "answer": "-i"
+      },
+      {
+        "question": "What is cos(0)?",
+        "options": ["1", "0", "-1", "Undefined"],
+        "answer": "1"
+      },
+      {
+        "question": "If f(x) = 5x², find f '(2)",
+        "options": ["20", "10", "5", "2"],
+        "answer": "20"
+      },
+      {
+        "question": "What is the area of a triangle with base 8 and height 5?",
+        "options": ["20", "40", "13", "30"],
+        "answer": "20"
+      },
+      {
+        "question": "What is the integral of e^x?",
+        "options": ["e^x + C", "e^(x²) + C", "x e^x + C", "ln(x) + C"],
+        "answer": "e^x + C"
+      },
+      {
+        "question": "Evaluate: ∫x² dx",
+        "options": ["(1/3)x³ + C", "x² + C", "(1/2)x² + C", "x³ + C"],
+        "answer": "(1/3)x³ + C"
+      },
+      {
+        "question": "What is sin(π)?",
+        "options": ["0", "1", "-1", "Undefined"],
+        "answer": "0"
+      }
+    ]
+  },
+  "General Knowledge": {
+    "Easy": [
+      {
+        "question": "What is the capital of Nigeria?",
+        "options": ["Lagos", "Abuja", "Port Harcourt", "Kano"],
+        "answer": "Abuja"
+      },
+      {
+        "question": "Who is on the ₦1000 note?",
+        "options": [
+          "Nnamdi Azikiwe",
+          "Obafemi Awolowo",
+          "Alhaji Aliyu Mai-Bornu & Clement Isong",
+          "Murtala Mohammed"
+        ],
+        "answer": "Alhaji Aliyu Mai-Bornu & Clement Isong"
+      },
+      {
+        "question": "What is the national animal of Nigeria?",
+        "options": ["Lion", "Eagle", "Cow", "Elephant"],
+        "answer": "Eagle"
+      },
+      {
+        "question": "What is Nigeria’s official language?",
+        "options": ["Yoruba", "Hausa", "English", "Igbo"],
+        "answer": "English"
+      },
+      {
+        "question": "What is the currency of Nigeria?",
+        "options": ["Dollar", "Cedi", "Naira", "Pound"],
+        "answer": "Naira"
+      },
+      {
+        "question": "Who is the current president of Nigeria (2025)?",
+        "options": [
+          "Bola Tinubu",
+          "Goodluck Jonathan",
+          "Muhammadu Buhari",
+          "Peter Obi"
+        ],
+        "answer": "Bola Tinubu"
+      },
+      {
+        "question": "Which Nigerian city is known for oil production?",
+        "options": ["Ibadan", "Lagos", "Port Harcourt", "Jos"],
+        "answer": "Port Harcourt"
+      },
+      {
+        "question": "How many states are there in Nigeria?",
+        "options": ["30", "32", "36", "38"],
+        "answer": "36"
+      },
+      {
+        "question": "Which country is Nigeria’s neighbor to the west?",
+        "options": ["Cameroon", "Ghana", "Benin Republic", "Niger"],
+        "answer": "Benin Republic"
+      },
+      {
+        "question": "What is Nigeria's Independence Day?",
+        "options": ["October 1", "July 4", "May 27", "December 25"],
+        "answer": "October 1"
+      },
+      {
+        "question": "Who wrote the Nigerian national anthem?",
+        "options": [
+          "Wole Soyinka",
+          "Pa Benedict Odiase",
+          "Chinua Achebe",
+          "Fela Kuti"
+        ],
+        "answer": "Pa Benedict Odiase"
+      },
+      {
+        "question": "What is the largest ethnic group in Nigeria?",
+        "options": ["Hausa-Fulani", "Igbo", "Yoruba", "Edo"],
+        "answer": "Hausa-Fulani"
+      },
+      {
+        "question": "What is the name of Nigeria's first university?",
+        "options": [
+          "UNILAG",
+          "ABU Zaria",
+          "University of Ibadan",
+          "Covenant University"
+        ],
+        "answer": "University of Ibadan"
+      },
+      {
+        "question": "Which color is NOT in the Nigerian flag?",
+        "options": ["Green", "White", "Red", "None"],
+        "answer": "Red"
+      },
+      {
+        "question": "What does NYSC stand for?",
+        "options": [
+          "National Youth Service Corps",
+          "National Youth Safety Corps",
+          "Nigerian Youth and Social Corps",
+          "National Youth Schooling Course"
+        ],
+        "answer": "National Youth Service Corps"
+      },
+      {
+        "question": "Who is considered the father of Nigerian literature?",
+        "options": [
+          "Chimamanda Ngozi Adichie",
+          "Chinua Achebe",
+          "Wole Soyinka",
+          "Ben Okri"
+        ],
+        "answer": "Chinua Achebe"
+      },
+      {
+        "question": "What sport is Nigeria most famous for internationally?",
+        "options": ["Basketball", "Tennis", "Football (Soccer)", "Boxing"],
+        "answer": "Football (Soccer)"
+      },
+      {
+        "question": "What is the name of Nigeria’s biggest film industry?",
+        "options": ["Gollywood", "Nollywood", "Bollywood", "FilmNaija"],
+        "answer": "Nollywood"
+      },
+      {
+        "question": "Which Nigerian state is known as the \"Centre of Excellence\"?",
+        "options": ["Abuja", "Enugu", "Lagos", "Ogun"],
+        "answer": "Lagos"
+      },
+      {
+        "question": "What is the nickname of Nigeria’s national football team?",
+        "options": [
+          "Red Devils",
+          "Green Eagles",
+          "Black Stars",
+          "Super Eagles"
+        ],
+        "answer": "Super Eagles"
+      },
+      {
+        "question": "What does JAMB stand for?",
+        "options": [
+          "Joint Admissions and Matriculation Board",
+          "Joint Academic and Matriculation Bureau",
+          "Junior Academic Matric Board",
+          "None"
+        ],
+        "answer": "Joint Admissions and Matriculation Board"
+      },
+      {
+        "question": "What is the traditional attire worn by Yoruba men?",
+        "options": ["Agbada", "Dashiki", "Isi Agu", "Kaftan"],
+        "answer": "Agbada"
+      },
+      {
+        "question": "Which of these foods is made from cassava?",
+        "options": ["Moi Moi", "Fufu", "Jollof Rice", "Suya"],
+        "answer": "Fufu"
+      },
+      {
+        "question": "What type of government does Nigeria practice?",
+        "options": ["Monarch", "Democracy", "Military Rule", "Theocracy"],
+        "answer": "Democracy"
+      }
+    ],
+    "Medium": [
+      {
+        "question": "Which Nigerian author wrote 'Purple Hibiscus'?",
+        "options": [
+          "Wole Soyinka",
+          "Chimamanda Ngozi Adichie",
+          "Chinua Achebe",
+          "Ben Okri"
+        ],
+        "answer": "Chimamanda Ngozi Adichie"
+      },
+      {
+        "question": "What is the main function of the National Assembly in Nigeria?",
+        "options": [
+          "Enforcing laws",
+          "Judging crimes",
+          "Making laws",
+          "Electing the President"
+        ],
+        "answer": "Making laws"
+      },
+      {
+        "question": "Which Nigerian state is the largest by land area?",
+        "options": ["Niger", "Borno", "Taraba", "Kaduna"],
+        "answer": "Niger"
+      },
+      {
+        "question": "The Obudu Mountain Resort is located in which state?",
+        "options": ["Benue", "Plateau", "Cross River", "Enugu"],
+        "answer": "Cross River"
+      },
+      {
+        "question": "Which year did Nigeria become a republic?",
+        "options": ["1960", "1963", "1966", "1979"],
+        "answer": "1963"
+      },
+      {
+        "question": "What is the population estimate of Nigeria as of 2025?",
+        "options": ["120 million", "150 million", "223 million", "300 million"],
+        "answer": "223 million"
+      },
+      {
+        "question": "Which Nigerian city is nicknamed 'Coal City'?",
+        "options": ["Enugu", "Jos", "Warri", "Makurdi"],
+        "answer": "Enugu"
+      },
+      {
+        "question": "Who was Nigeria's first president?",
+        "options": [
+          "Nnamdi Azikiwe",
+          "Tafawa Balewa",
+          "Yakubu Gowon",
+          "Olusegun Obasanjo"
+        ],
+        "answer": "Nnamdi Azikiwe"
+      },
+      {
+        "question": "What is the traditional religion of the Yoruba people called?",
+        "options": ["Ifa", "Afa", "Orisha", "Ogun"],
+        "answer": "Ifa"
+      },
+      {
+        "question": "Which Nigerian musician is known as the 'Queen of Afrobeat'?",
+        "options": ["Tiwa Savage", "Yemi Alade", "Tems", "Fela’s Daughter"],
+        "answer": "Tiwa Savage"
+      },
+      {
+        "question": "What year did Nigeria win Olympic gold in football?",
+        "options": ["1992", "1996", "2000", "2004"],
+        "answer": "1996"
+      },
+      {
+        "question": "Which city hosted FESTAC '77?",
+        "options": ["Abuja", "Kano", "Enugu", "Lagos"],
+        "answer": "Lagos"
+      },
+      {
+        "question": "What is the highest decision-making court in Nigeria?",
+        "options": [
+          "Appeal Court",
+          "High Court",
+          "Supreme Court",
+          "Magistrate Court"
+        ],
+        "answer": "Supreme Court"
+      },
+      {
+        "question": "Which Nigerian river meets the Benue River?",
+        "options": ["Ogun", "Osun", "Niger", "Sokoto"],
+        "answer": "Niger"
+      },
+      {
+        "question": "What is the most spoken language in Nigeria?",
+        "options": ["Yoruba", "Hausa", "English", "Igbo"],
+        "answer": "Hausa"
+      },
+      {
+        "question": "How many senators are in Nigeria’s Senate?",
+        "options": ["36", "72", "109", "120"],
+        "answer": "109"
+      },
+      {
+        "question": "Which festival is celebrated by the Benin people?",
+        "options": ["Ofala", "Osun-Osogbo", "Igue", "Argungu"],
+        "answer": "Igue"
+      },
+      {
+        "question": "Which Nigerian leader was overthrown in 1983?",
+        "options": ["Obasanjo", "Buhari", "Shagari", "Gowon"],
+        "answer": "Shagari"
+      },
+      {
+        "question": "Which Nigerian was the first to head the UN General Assembly?",
+        "options": [
+          "Ngozi Okonjo-Iweala",
+          "Emeka Anyaoku",
+          "Joseph Garba",
+          "Akinwumi Adesina"
+        ],
+        "answer": "Joseph Garba"
+      },
+      {
+        "question": "Who discovered River Niger?",
+        "options": [
+          "David Livingstone",
+          "Mungo Park",
+          "Henry Stanley",
+          "Vasco da Gama"
+        ],
+        "answer": "Mungo Park"
+      },
+      {
+        "question": "Which state has the slogan 'Light of the Nation'?",
+        "options": ["Lagos", "Anambra", "Delta", "Enugu"],
+        "answer": "Anambra"
+      },
+      {
+        "question": "What is the common unit for measuring electrical power?",
+        "options": ["Volt", "Watt", "Ampere", "Ohm"],
+        "answer": "Watt"
+      },
+      {
+        "question": "Which natural resource is mostly found in Jos?",
+        "options": ["Crude oil", "Gold", "Tin", "Coal"],
+        "answer": "Tin"
+      },
+      {
+        "question": "Who created the Nigerian flag?",
+        "options": [
+          "Flora Nwapa",
+          "Taiwo Akinkunmi",
+          "Ngozi Okonjo-Iweala",
+          "Funmilayo Ransome-Kuti"
+        ],
+        "answer": "Taiwo Akinkunmi"
+      },
+      {
+        "question": "Which Nigerian tribe is dominant in the North?",
+        "options": ["Yoruba", "Igbo", "Hausa-Fulani", "Ijaw"],
+        "answer": "Hausa-Fulani"
+      },
+      {
+        "question": "What is the name of Nigeria’s longest bridge?",
+        "options": [
+          "Eko Bridge",
+          "Third Mainland Bridge",
+          "Niger Bridge",
+          "Lekki Bridge"
+        ],
+        "answer": "Third Mainland Bridge"
+      },
+      {
+        "question": "Which of these is a renewable energy source?",
+        "options": ["Petrol", "Diesel", "Solar", "Coal"],
+        "answer": "Solar"
+      },
+      {
+        "question": "What was Nigeria’s former currency before the Naira?",
+        "options": ["Kobo", "Dollar", "Pound", "Shilling"],
+        "answer": "Pound"
+      },
+      {
+        "question": "Which mineral is used to produce cement in Nigeria?",
+        "options": ["Tin", "Limestone", "Gold", "Lead"],
+        "answer": "Limestone"
+      },
+      {
+        "question": "Which Nigerian state is known for its waterfalls?",
+        "options": ["Taraba", "Ekiti", "Ebonyi", "Sokoto"],
+        "answer": "Ekiti"
+      },
+      {
+        "question": "Which of these is NOT a Nigerian political party?",
+        "options": ["APC", "PDP", "NPP", "BBC"],
+        "answer": "BBC"
+      },
+      {
+        "question": "What was the name of Nigeria before independence?",
+        "options": [
+          "The Gold Coast",
+          "United Nigeria",
+          "Colony and Protectorate of Nigeria",
+          "Southern Empire"
+        ],
+        "answer": "Colony and Protectorate of Nigeria"
+      },
+      {
+        "question": "Which language group is Igbo a part of?",
+        "options": ["Bantu", "Niger-Congo", "Afro-Asiatic", "Berber"],
+        "answer": "Niger-Congo"
+      },
+      {
+        "question": "Which state is known for the Argungu Fishing Festival?",
+        "options": ["Kebbi", "Kwara", "Niger", "Sokoto"],
+        "answer": "Kebbi"
+      },
+      {
+        "question": "What is the study of the Earth’s surface called?",
+        "options": ["Biology", "Physics", "Geography", "Ecology"],
+        "answer": "Geography"
+      },
+      {
+        "question": "What is the economic capital of Nigeria?",
+        "options": ["Lagos", "Abuja", "Kano", "Port Harcourt"],
+        "answer": "Lagos"
+      },
+      {
+        "question": "Which local Nigerian drink is made from fermented millet?",
+        "options": ["Kunu", "Zobo", "Fura", "Akamu"],
+        "answer": "Kunu"
+      },
+      {
+        "question": "What is the main religion in northern Nigeria?",
+        "options": ["Christianity", "Traditional", "Islam", "Buddhism"],
+        "answer": "Islam"
+      },
+      {
+        "question": "Who was the first military head of state in Nigeria?",
+        "options": [
+          "Aguiyi Ironsi",
+          "Yakubu Gowon",
+          "Murtala Mohammed",
+          "Olusegun Obasanjo"
+        ],
+        "answer": "Aguiyi Ironsi"
+      },
+      {
+        "question": "Who was the first female senator in Nigeria?",
+        "options": [
+          "Ngozi Okonjo-Iweala",
+          "Margaret Ekpo",
+          "Franca Afegbua",
+          "Stella Oduah"
+        ],
+        "answer": "Franca Afegbua"
+      },
+      {
+        "question": "How many local government areas (LGAs) are in Nigeria?",
+        "options": ["574", "680", "774", "872"],
+        "answer": "774"
+      },
+      {
+        "question": "Which organization manages oil production in Nigeria?",
+        "options": ["WAEC", "INEC", "NNPC", "JAMB"],
+        "answer": "NNPC"
+      },
+      {
+        "question": "What is the nickname for Enyimba Football Club?",
+        "options": ["The Elephants", "The Eagles", "The Lions", "The Warriors"],
+        "answer": "The Elephants"
+      },
+      {
+        "question": "Which Nigerian wrote 'There Was a Country'?",
+        "options": [
+          "Wole Soyinka",
+          "Chimamanda Adichie",
+          "Chinua Achebe",
+          "Ben Okri"
+        ],
+        "answer": "Chinua Achebe"
+      },
+      {
+        "question": "Which of these is a social media platform founded in Africa?",
+        "options": ["TikTok", "Facebook", "Threads", "Eskimi"],
+        "answer": "Eskimi"
+      },
+      {
+        "question": "What is the national motto of Nigeria?",
+        "options": [
+          "Freedom, Peace, Unity",
+          "Peace, Unity, Progress",
+          "Unity and Faith, Peace and Progress",
+          "God’s Own Country"
+        ],
+        "answer": "Unity and Faith, Peace and Progress"
+      },
+      {
+        "question": "What is the purpose of the NDLEA?",
+        "options": [
+          "Electricity Regulation",
+          "Food Safety",
+          "Drug Control",
+          "Trade Monitoring"
+        ],
+        "answer": "Drug Control"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Which Nigerian state was formerly known as Gongola?",
+        "options": ["Taraba", "Gombe", "Adamawa", "Yobe"],
+        "answer": "Taraba"
+      },
+      {
+        "question": "Who was the first Nigerian to win a Grammy Award?",
+        "options": ["Burna Boy", "Sade Adu", "Femi Kuti", "Wizkid"],
+        "answer": "Sade Adu"
+      },
+      {
+        "question": "When did Nigeria switch to right-hand driving?",
+        "options": ["1960", "1972", "1973", "1974"],
+        "answer": "1973"
+      },
+      {
+        "question": "Which Nigerian city had city walls longer than China's?",
+        "options": ["Kano", "Benin", "Oyo-Ile", "Zaria"],
+        "answer": "Benin"
+      },
+      {
+        "question": "What is the deepest river in Nigeria?",
+        "options": ["Niger", "Benue", "Ethiope", "Sokoto"],
+        "answer": "Ethiope"
+      },
+      {
+        "question": "What % of Nigerians are under age 25 (2025)?",
+        "options": ["30%", "45%", "60%", "70%"],
+        "answer": "60%"
+      },
+      {
+        "question": "Who led the Aba Women’s Riot of 1929?",
+        "options": ["Margaret Ekpo", "Ransome-Kuti", "Nwanyeruwa", "Amina"],
+        "answer": "Nwanyeruwa"
+      },
+      {
+        "question": "What does 'Naira' mean?",
+        "options": [
+          "Igbo word",
+          "Short for Nigeria",
+          "Hausa currency",
+          "River name"
+        ],
+        "answer": "Short for Nigeria"
+      },
+      {
+        "question": "What agency handles Nigeria’s national ID?",
+        "options": ["NOA", "NIMC", "NERC", "NNPC"],
+        "answer": "NIMC"
+      },
+      {
+        "question": "Oldest degree-awarding university in Nigeria?",
+        "options": ["ABU Zaria", "UNILAG", "UI", "UNN"],
+        "answer": "UI"
+      },
+      {
+        "question": "Which king resisted British rule in Benin?",
+        "options": ["Ooni", "Ovonramwen", "Ewuare", "Esigie"],
+        "answer": "Ovonramwen"
+      },
+      {
+        "question": "What landmark is on ₦100 note?",
+        "options": ["Zuma Rock", "Olumo Rock", "Aso Rock", "Erin-Ijesha"],
+        "answer": "Zuma Rock"
+      },
+      {
+        "question": "What is Nigeria’s electoral commission?",
+        "options": ["WAEC", "INEC", "JAMB", "NBC"],
+        "answer": "INEC"
+      },
+      {
+        "question": "Largest lake in Nigeria?",
+        "options": ["Lake Chad", "Oguta", "Kainji", "Jabi"],
+        "answer": "Lake Chad"
+      },
+      {
+        "question": "Government system after independence?",
+        "options": ["Republic", "Monarchy", "Parliamentary", "Military"],
+        "answer": "Parliamentary"
+      },
+      {
+        "question": "First Nigerian Sec-Gen of Commonwealth?",
+        "options": ["Anyaoku", "Obasanjo", "Soyinka", "Azikiwe"],
+        "answer": "Anyaoku"
+      },
+      {
+        "question": "Total digits in Nigerian phone number w/ country code?",
+        "options": ["11", "13", "14", "10"],
+        "answer": "14"
+      },
+      {
+        "question": "Home of Nok culture?",
+        "options": ["Jos", "Abeokuta", "Calabar", "Enugu"],
+        "answer": "Jos"
+      },
+      {
+        "question": "GSM launched in Nigeria in what year?",
+        "options": ["1999", "2001", "2003", "2005"],
+        "answer": "2001"
+      },
+      {
+        "question": "Ex-president of AfDB?",
+        "options": ["Adesina", "Anyaoku", "Okonjo-Iweala", "Soludo"],
+        "answer": "Adesina"
+      },
+      {
+        "question": "Nigerian state with most LGAs?",
+        "options": ["Lagos", "Kano", "Oyo", "Kaduna"],
+        "answer": "Kano"
+      },
+      {
+        "question": "Founder of Sokoto Caliphate?",
+        "options": ["Dan Fodio", "Bello", "Shagari", "Gowon"],
+        "answer": "Dan Fodio"
+      },
+      {
+        "question": "Number of Police Zones in Nigeria?",
+        "options": ["8", "10", "12", "15"],
+        "answer": "12"
+      },
+      {
+        "question": "Famous leatherwork town?",
+        "options": ["Aba", "Kano", "Bida", "Ilorin"],
+        "answer": "Kano"
+      },
+      {
+        "question": "EFCC means?",
+        "options": ["Economic and Financial Crimes Commission"],
+        "answer": "Economic and Financial Crimes Commission"
+      },
+      {
+        "question": "Year Nigeria’s current constitution was adopted?",
+        "options": ["1993", "1997", "1999", "2000"],
+        "answer": "1999"
+      },
+      {
+        "question": "Colonial ruler before independence?",
+        "options": ["France", "Spain", "Britain", "Germany"],
+        "answer": "Britain"
+      },
+      {
+        "question": "Total National Assembly seats?",
+        "options": ["369", "450", "469", "509"],
+        "answer": "469"
+      },
+      {
+        "question": "Helped develop Ebola vaccine?",
+        "options": ["Adadevoh", "Ihekweazu", "Adesina", "Iwu"],
+        "answer": "Iwu"
+      },
+      {
+        "question": "Voltage in Nigerian homes?",
+        "options": ["110V", "220V", "240V", "380V"],
+        "answer": "220V"
+      },
+      {
+        "question": "Issues driving licenses in Nigeria?",
+        "options": ["FRSC", "NPF", "VIO", "LASTMA"],
+        "answer": "FRSC"
+      },
+      {
+        "question": "Only desert in Nigeria?",
+        "options": ["Sahara", "Kalahari", "Sahel", "Sudan"],
+        "answer": "Sahel"
+      },
+      {
+        "question": "Nigeria’s highest military honor?",
+        "options": ["GCFR", "GCON", "CFR", "MON"],
+        "answer": "GCFR"
+      },
+      {
+        "question": "First female Nigerian governor?",
+        "options": ["Okonjo-Iweala", "Ransome-Kuti", "Etiaba", "Afegbua"],
+        "answer": "Etiaba"
+      },
+      {
+        "question": "Nigeria’s time zone?",
+        "options": ["GMT", "GMT+1", "GMT+2", "UTC"],
+        "answer": "GMT+1"
+      },
+      {
+        "question": "Largest seaport in Nigeria?",
+        "options": ["Lagos", "Calabar", "PH", "Warri"],
+        "answer": "Lagos"
+      },
+      {
+        "question": "Minimum voting age?",
+        "options": ["16", "18", "20", "21"],
+        "answer": "18"
+      },
+      {
+        "question": "Nigeria's northeast border country?",
+        "options": ["Ghana", "Cameroon", "Niger", "Chad"],
+        "answer": "Chad"
+      },
+      {
+        "question": "Nigeria’s national grid operator?",
+        "options": ["TCN", "NERC", "NEPA", "GENCOS"],
+        "answer": "TCN"
+      },
+      {
+        "question": "Made ventilator during COVID-19?",
+        "options": ["Adekunle", "Agboola", "Mallo", "Oluremi"],
+        "answer": "Mallo"
+      },
+      {
+        "question": "Nigerian Stock Exchange HQ?",
+        "options": ["Abuja", "PH", "Lagos", "Kano"],
+        "answer": "Lagos"
+      },
+      {
+        "question": "First FIFA referee from Nigeria?",
+        "options": ["Mba", "Balogun", "Fregene", "Ikhana"],
+        "answer": "Mba"
+      },
+      {
+        "question": "Busiest airport in Nigeria?",
+        "options": ["Nnamdi Azikiwe", "Kano", "MMA Lagos", "Benin"],
+        "answer": "MMA Lagos"
+      },
+      {
+        "question": "Main electricity source in Nigeria?",
+        "options": ["Solar", "Coal", "Hydro", "Natural Gas"],
+        "answer": "Natural Gas"
+      },
+      {
+        "question": "City with National Arts Theatre?",
+        "options": ["Abuja", "Lagos", "Enugu", "Kaduna"],
+        "answer": "Lagos"
+      },
+      {
+        "question": "Treaty that united North and South Nigeria?",
+        "options": ["Lagos", "Zungeru", "Proclamation", "1914 Treaty"],
+        "answer": "1914 Treaty"
+      },
+      {
+        "question": "Last Governor-General of Nigeria?",
+        "options": ["Azikiwe", "Balewa", "Clifford", "Robertson"],
+        "answer": "Azikiwe"
       }
     ]
   }
