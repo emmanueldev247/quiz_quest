@@ -103,7 +103,7 @@ def load_questions():
         if not os.path.exists('questions.json'):
             raise QuestionFileNotFoundError("\n     'questions.json' file not found.")
 
-        with open('questions.json') as f:
+        with open('questions.json', encoding="utf-8") as f:
             return json.load(f)
     except json.JSONDecodeError as e:
         raise InvalidQuestionFileError(f"\n     Invalid questions file format -> {e}")
@@ -114,7 +114,7 @@ def save_leaderboard(nickname, avatar, score):
     filename = 'leaderboard.json'
     if os.path.exists(filename):
         try:
-            with open(filename, 'r') as f:
+            with open(filename, 'r', encoding="utf-8") as f:
                 leaderboard = json.load(f)
         except json.JSONDecodeError:
             leaderboard = []
@@ -125,7 +125,7 @@ def save_leaderboard(nickname, avatar, score):
     leaderboard.sort(key=lambda x: x['score'], reverse=True)
     leaderboard = leaderboard[:5]
 
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding="utf-8") as f:
         json.dump(leaderboard, f, indent=2)
 
 
@@ -133,7 +133,7 @@ def save_leaderboard(nickname, avatar, score):
 def show_leaderboard():
     print("\n🏆 Leaderboard:")
     try:
-        with open('leaderboard.json') as f:
+        with open('leaderboard.json', encoding="utf-8") as f:
             data = json.load(f)
             for i, entry in enumerate(data, 1):
                 label = "Coins" if int(entry['score']) > 1 else "Coin"
